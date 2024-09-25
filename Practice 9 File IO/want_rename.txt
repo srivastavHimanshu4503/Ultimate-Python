@@ -1,0 +1,1 @@
+This file wants to rename its name using python.
