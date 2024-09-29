@@ -9,7 +9,6 @@ def game():
         user_guess = int(input("Enter number between from 1 to 100: "))
         number_of_attempts += 1
         if (user_guess == random_number):
-            print(number_of_attempts)
             return number_of_attempts
         elif (user_guess > random_number):
             print("Lower the number.")
@@ -17,4 +16,4 @@ def game():
             print("Increase the number.")
 
 if __name__ == "__main__":
-    print(f"You took {game()} to guess the random number.")
+    print(f"You took {game()} attempts to guess the random number.")
